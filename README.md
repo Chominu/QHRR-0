@@ -16,7 +16,7 @@
 
 5. Push origin
 
-6. Push 후 GitHub 웹 페이지에서 Pull Request(PR) 생성 -> 관리자가 리뷰 승인 후 병합
+6. Push 후 Pull Request(PR) 생성, GitHub 웹 페이지에서 Create -> 관리자가 리뷰 승인 후 병합
 
 
 
