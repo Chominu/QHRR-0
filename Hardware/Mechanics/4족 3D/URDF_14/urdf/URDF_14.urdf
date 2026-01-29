@@ -3,7 +3,7 @@
      Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
 <robot
-  name="URDF_12">
+  name="URDF_14">
   <link
     name="base_link">
     <inertial>
@@ -11,7 +11,7 @@
         xyz="-0.038225 -0.045584 0.12824"
         rpy="0 0 0" />
       <mass
-        value="2.20928" />
+        value="2.2093" />
       <inertia
         ixx="0.0039704"
         ixy="2.6662E-05"
@@ -26,7 +26,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://URDF_12/meshes/base_link.STL" />
+          filename="package://URDF_14/meshes/base_link.STL" />
       </geometry>
       <material
         name="">
@@ -40,7 +40,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://URDF_12/meshes/base_link.STL" />
+          filename="package://URDF_14/meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -51,7 +51,7 @@
         xyz="0.013108 -0.044177 0.00034503"
         rpy="0 0 0" />
       <mass
-        value="1.00799" />
+        value="1.008" />
       <inertia
         ixx="0.00018713"
         ixy="-3.0023E-08"
@@ -66,7 +66,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://URDF_12/meshes/Hip_link.STL" />
+          filename="package://URDF_14/meshes/Hip_link.STL" />
       </geometry>
       <material
         name="">
@@ -80,7 +80,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://URDF_12/meshes/Hip_link.STL" />
+          filename="package://URDF_14/meshes/Hip_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -124,7 +124,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://URDF_12/meshes/Thigh_link.STL" />
+          filename="package://URDF_14/meshes/Thigh_link.STL" />
       </geometry>
       <material
         name="">
@@ -138,7 +138,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://URDF_12/meshes/Thigh_link.STL" />
+          filename="package://URDF_14/meshes/Thigh_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -164,17 +164,17 @@
     name="Calf_link">
     <inertial>
       <origin
-        xyz="0.000235828141353409 0.0117246312395909 -0.152929505146333"
+        xyz="0.000203770717243083 0.00952938812029318 -0.176982427275814"
         rpy="0 0 0" />
       <mass
-        value="0.533810178999466" />
+        value="0.60518433734649" />
       <inertia
-        ixx="0.0076992247838026"
-        ixy="2.80951023961327E-10"
-        ixz="3.68529334750753E-10"
-        iyy="0.00758489863409158"
-        iyz="0.000426074550936931"
-        izz="0.00016402112102885" />
+        ixx="0.00772794484997601"
+        ixy="1.44224271129486E-08"
+        ixz="1.45933169504129E-08"
+        iyy="0.00760727594236918"
+        iyz="0.000432410282188059"
+        izz="0.00018638549348508" />
     </inertial>
     <visual>
       <origin
@@ -182,7 +182,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://URDF_12/meshes/Calf_link.STL" />
+          filename="package://URDF_14/meshes/Calf_link.STL" />
       </geometry>
       <material
         name="">
@@ -196,7 +196,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://URDF_12/meshes/Calf_link.STL" />
+          filename="package://URDF_14/meshes/Calf_link.STL" />
       </geometry>
     </collision>
   </link>
